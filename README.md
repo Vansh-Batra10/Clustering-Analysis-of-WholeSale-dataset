@@ -109,6 +109,7 @@ The Wholesale Customers dataset from the UCI repository captures the annual spen
 ## Conclusion
 
 The clustering algorithm evaluation indicates that preprocessing steps, like normalization and feature scaling, substantially improve clustering performance. Specifically, the Normalized-minmax method consistently elevated Silhouette scores, which suggests the formation of more cohesive clusters. The combination of Yeo-Johnson transformations with PCA often led to higher Calinski-Harabasz index values, signifying well-defined clusters, though the Davies-Bouldin index results varied, implying dependency on the data's nature.
+Overall Birch performed well if we consider its overall table , and we can see it has a Silhouette score of 0.8554 at c=3 with tranformation yeo johnson and also has a good score for other metrics.
 
 Key insights:
 
