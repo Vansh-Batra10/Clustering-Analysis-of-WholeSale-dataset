@@ -2,6 +2,9 @@
 
 This document evaluates five different clustering algorithms using the PyCaret library, a machine learning library in Python that simplifies the process of setting up, comparing, and evaluating machine learning models. The algorithms evaluated are K-Means Clustering (`kmeans`), Affinity Propagation (`ap`), Agglomerative Clustering (`hclust`), Birch Clustering (`birch`), and K-Modes Clustering (`kmodes`). The evaluation metrics used for comparison include the Silhouette score, Calinski-Harabasz index, and Davies-Bouldin index, which are common across all algorithms.
 
+## Dataset 
+
+The Wholesale Customers dataset from the UCI repository captures the annual spend of various clients on different product categories. It is a multivariate dataset that has applications in both classification and clustering tasks within the business domain. With 440 instances and 7 integer-valued features, the dataset can provide insights into customer purchasing behavior, useful for market segmentation and customer insights analysis.
 ## Evaluation Metrics
 
 - **Silhouette Score**: Measures how similar an object is to its own cluster compared to other clusters. The value ranges from -1 to 1, where a high value indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters.
