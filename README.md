@@ -25,9 +25,10 @@ This document evaluates five different clustering algorithms using the PyCaret l
 
 #### Graphs
 
-1. ![K-Means Graph 1](path/to/graph1.png)
-2. ![K-Means Graph 2](path/to/graph2.png)
-3. ![K-Means Graph 3](path/to/graph3.png)
+1. ![K-Means Graph 1](graphs/graph1.png)
+   Without Preprocessing
+3. ![K-Means Graph 2](graphs/graph2.png)
+   With Preprocessing
 
 ### 2. Affinity Propagation (`ap`)
 
@@ -42,9 +43,10 @@ This document evaluates five different clustering algorithms using the PyCaret l
 
 #### Graphs
 
-1. ![AP Graph 1](path/to/graph4.png)
-2. ![AP Graph 2](path/to/graph5.png)
-3. ![AP Graph 3](path/to/graph6.png)
+1. ![AP Graph 1](graphs/graph3.png)
+    Without Preprocessing
+3. ![AP Graph 2](graphs/graph4.png)
+    With Preprocessing
 
 ### 3. Agglomerative Clustering (`hclust`)
 
@@ -59,9 +61,10 @@ This document evaluates five different clustering algorithms using the PyCaret l
 
 #### Graphs
 
-1. ![HClust Graph 1](path/to/graph7.png)
-2. ![HClust Graph 2](path/to/graph8.png)
-3. ![HClust Graph 3](path/to/graph9.png)
+1. ![HClust Graph 1](graphs/graph5.png)
+  Without Preprocessing
+3. ![HClust Graph 2](graphs/graph6.png)
+  With Preprocessing
 
 ### 4. Birch Clustering (`birch`)
 
@@ -77,9 +80,10 @@ This document evaluates five different clustering algorithms using the PyCaret l
 
 #### Graphs
 
-1. ![Birch Graph 1](path/to/graph10.png)
-2. ![Birch Graph 2](path/to/graph11.png)
-3. ![Birch Graph 3](path/to/graph12.png)
+1. ![Birch Graph 1](graphs/graph7.png)
+   Without Preprocessing
+3. ![Birch Graph 2](graphs/graph8.png)
+   With Preprocessing
 
 ### 5. K-Modes Clustering (`kmodes`)
 
@@ -94,9 +98,10 @@ This document evaluates five different clustering algorithms using the PyCaret l
 
 #### Graphs
 
-1. ![KModes Graph 1](path/to/graph13.png)
-2. ![KModes Graph 2](path/to/graph14.png)
-3. ![KModes Graph 3](path/to/graph15.png)
+1. ![KModes Graph 1](graphs/graph9.png)
+   Without Preprocessing
+3. ![KModes Graph 2](graphs/graph10.png)
+   With Preprocessing
 
 ## Conclusion
 
